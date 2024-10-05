@@ -13,7 +13,7 @@ const databaseURL = process.env.DATABASE_URL
 
 app.use(
     cors({
-      origin: [process.env.ORIGIN], //frontend urls which send requests
+      origin: ["https://farmingofrontend-leq2.vercel.app"], //frontend urls which send requests
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
       credentials: true, //enable cookies
     })
